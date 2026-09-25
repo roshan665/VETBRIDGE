@@ -1,11 +1,11 @@
 /**
- * JeevRaksha API client.
+ * VETBRIDGE API client.
  *
  * Every screen talks to the backend through this module only, so moving from
  * mock data to the FastAPI service is a one-file change:
  *
  *   .env:  VITE_USE_MOCK_API=false
- *          VITE_API_BASE_URL=https://api.jeevraksha.in/api/v1
+ *          VITE_API_BASE_URL=https://api.vetbridge.in/api/v1
  *
  * Each exported function documents the FastAPI route it will eventually call.
  */

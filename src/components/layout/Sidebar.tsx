@@ -143,7 +143,7 @@ function SidebarContent({ role, onNavigate }: { role: UserRole; onNavigate?: () 
       <div className="shrink-0 border-t border-line p-4">
         <div className="flex items-center gap-3">
           <span className="grid size-9 shrink-0 place-items-center rounded-full bg-brand-100 text-xs font-semibold text-brand-800">
-            {initials(user?.name ?? 'JeevRaksha')}
+            {initials(user?.name ?? 'VETBRIDGE')}
           </span>
           <div className="min-w-0">
             <p className="truncate text-sm font-medium text-ink">{user?.name ?? 'Guest user'}</p>

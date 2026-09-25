@@ -76,7 +76,7 @@ export function Footer() {
             <ul className="mt-4 space-y-3 text-sm text-ink-muted">
               <li className="flex items-center gap-2">
                 <Mail className="size-4 text-brand-600" aria-hidden="true" />
-                support@jeevraksha.in
+                support@vetbridge.in
               </li>
               <li className="flex items-center gap-2">
                 <PhoneCall className="size-4 text-brand-600" aria-hidden="true" />
@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col gap-2 border-t border-line pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-ink-muted">
-            &copy; {new Date().getFullYear()} JeevRaksha &middot; Livestock Health Intelligence. All
+            &copy; {new Date().getFullYear()} VETBRIDGE &middot; Livestock Health Intelligence. All
             rights reserved.
           </p>
           <p className="text-xs text-ink-muted">

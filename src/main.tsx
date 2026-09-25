@@ -7,7 +7,7 @@ import '@/index.css'
 const container = document.getElementById('root')
 
 if (!container) {
-  throw new Error('JeevRaksha: root container #root was not found in index.html')
+  throw new Error('VETBRIDGE: root container #root was not found in index.html')
 }
 
 createRoot(container).render(

@@ -1,5 +1,5 @@
 /**
- * Central type definitions for JeevRaksha.
+ * Central type definitions for VETBRIDGE.
  *
  * Every layer (mock data, services, components, pages) imports its domain
  * types from here so the FastAPI/PostgreSQL backend can be plugged in later

@@ -117,7 +117,7 @@ export default function Login() {
         <div className="flex flex-1 items-center justify-center px-4 py-10 sm:px-6 lg:px-10">
           <div className="w-full max-w-md">
             <div className="mb-8">
-              <h1 className="text-2xl font-semibold text-ink">Sign in to JeevRaksha</h1>
+              <h1 className="text-2xl font-semibold text-ink">Sign in to VETBRIDGE</h1>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">
                 Select your role and continue to your workspace. Access is scoped to the role you
                 choose.
@@ -213,7 +213,7 @@ export default function Login() {
 
             <div className="mt-6 flex flex-col gap-3 border-t border-line pt-6">
               <p className="text-sm text-ink-muted">
-                New to JeevRaksha?{' '}
+                New to VETBRIDGE?{' '}
                 <Link to="/register" className="font-medium text-brand-700 hover:text-brand-800">
                   Create Account
                 </Link>

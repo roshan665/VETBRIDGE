@@ -7,13 +7,13 @@ export function StatsBand() {
       <div className="mx-auto w-full max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-16">
         <div className="max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-brand-600">
-            About JeevRaksha
+            About VETBRIDGE
           </p>
           <h2 className="mt-2 text-2xl font-semibold text-ink sm:text-3xl">
             Built for early warning, preventive care and coordinated response
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-            JeevRaksha connects farmers, veterinary officers and animal husbandry departments on a
+            VETBRIDGE connects farmers, veterinary officers and animal husbandry departments on a
             single livestock health record - combining symptom reporting, health monitoring and
             disease risk analytics so outbreaks are contained before they spread.
           </p>

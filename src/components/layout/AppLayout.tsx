@@ -60,7 +60,7 @@ export function AppLayout() {
             </button>
 
             <div className="min-w-0 flex-1">
-              <p className="truncate text-sm font-semibold text-ink">JeevRaksha</p>
+              <p className="truncate text-sm font-semibold text-ink">VETBRIDGE</p>
               <p className="truncate text-xs text-ink-muted">{contextLine}</p>
             </div>
 
@@ -86,7 +86,7 @@ export function AppLayout() {
                 className="flex items-center gap-2 rounded-lg border border-line px-2 py-1.5 text-left transition-colors hover:bg-canvas"
               >
                 <span className="grid size-7 place-items-center rounded-full bg-brand-100 text-[11px] font-semibold text-brand-800">
-                  {initials(user?.name ?? 'JeevRaksha')}
+                  {initials(user?.name ?? 'VETBRIDGE')}
                 </span>
                 <span className="hidden max-w-[9rem] truncate text-sm font-medium text-ink sm:block">
                   {user?.name ?? 'Guest'}
@@ -152,7 +152,7 @@ export function AppLayout() {
 
         <footer className="border-t border-line px-4 py-6 text-xs text-ink-muted sm:px-6 lg:px-8">
           <div className="mx-auto flex w-full max-w-[1600px] flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
-            <p>JeevRaksha &middot; Livestock Health Intelligence &middot; SIH-26128</p>
+            <p>VETBRIDGE &middot; Livestock Health Intelligence &middot; SIH-26128</p>
             <p>Evaluation build &middot; temporary data until the FastAPI service is connected</p>
           </div>
         </footer>

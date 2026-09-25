@@ -5,10 +5,11 @@ import { dashboardLink } from '@/lib/navigation'
 import { login as apiLogin, logout as apiLogout, register as apiRegister } from '@/services/api'
 import type { AuthSession, LoginRequest, RegisterRequest, User } from '@/types'
 
-const STORAGE_KEY = 'jeevraksha.session'
+const STORAGE_KEY = 'vetbridge.session'
+const LEGACY_STORAGE_KEY = 'jeevraksha.session'
 
 function readStoredSession(): AuthSession | null {
-  const raw = window.localStorage.getItem(STORAGE_KEY) ?? window.sessionStorage.getItem(STORAGE_KEY)
+  const raw = window.localStorage.getItem(STORAGE_KEY) ?? window.sessionStorage.getItem(STORAGE_KEY) ?? window.localStorage.getItem(LEGACY_STORAGE_KEY) ?? window.sessionStorage.getItem(LEGACY_STORAGE_KEY)
   if (!raw) return null
 
   try {

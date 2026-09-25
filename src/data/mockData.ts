@@ -53,7 +53,7 @@ export const mockUsers: Record<UserRole, User> = {
   farmer: {
     id: 'usr-farmer-001',
     name: 'Prem Kumar Sharma',
-    email: 'prem.sharma@jeevraksha.in',
+    email: 'prem.sharma@vetbridge.in',
     phone: '+91 98260 45117',
     role: 'farmer',
     farmName: 'Sharma Dairy Farm',
@@ -64,7 +64,7 @@ export const mockUsers: Record<UserRole, User> = {
   veterinarian: {
     id: 'usr-vet-014',
     name: 'Dr. Ananya Deshmukh',
-    email: 'ananya.deshmukh@jeevraksha.in',
+    email: 'ananya.deshmukh@vetbridge.in',
     phone: '+91 94250 77812',
     role: 'veterinarian',
     organization: 'District Veterinary Hospital, Sehore',
@@ -89,14 +89,14 @@ export const mockUsers: Record<UserRole, User> = {
 
 /** Credentials surfaced on the login screen for evaluators / demo purposes. */
 export const demoAccounts: DemoAccount[] = [
-  { role: 'farmer', label: 'Farmer', email: mockUsers.farmer.email, password: 'jeevraksha' },
+  { role: 'farmer', label: 'Farmer', email: mockUsers.farmer.email, password: 'vetbridge' },
   {
     role: 'veterinarian',
     label: 'Veterinarian',
     email: mockUsers.veterinarian.email,
-    password: 'jeevraksha',
+    password: 'vetbridge',
   },
-  { role: 'admin', label: 'Government', email: mockUsers.admin.email, password: 'jeevraksha' },
+  { role: 'admin', label: 'Government', email: mockUsers.admin.email, password: 'vetbridge' },
 ]
 
 export const roleHomePath: Record<UserRole, string> = {

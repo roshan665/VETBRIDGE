@@ -130,7 +130,7 @@ export default function Register() {
   return (
     <div className="grid min-h-screen lg:grid-cols-2">
       <AuthVisual
-        title="Create your JeevRaksha account"
+        title="Create your VETBRIDGE account"
         description="Register your farm or department in minutes and start building a complete, traceable livestock health record."
         highlights={[
           'Free for individual farmers and gaushalas',

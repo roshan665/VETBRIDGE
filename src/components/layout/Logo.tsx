@@ -11,7 +11,7 @@ export interface LogoProps {
   tone?: 'light' | 'dark'
 }
 
-const PRODUCT_NAME = 'JeevRaksha'
+const PRODUCT_NAME = 'VETBRIDGE'
 const PRODUCT_TAGLINE = 'Livestock Health Intelligence'
 
 export function Logo({ to = '/', showTagline = true, className, tone = 'dark' }: LogoProps) {
