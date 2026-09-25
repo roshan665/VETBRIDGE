@@ -22,9 +22,9 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
-.directory
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.directory
