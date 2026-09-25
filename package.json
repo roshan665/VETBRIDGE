@@ -1,9 +1,9 @@
 {
-  "name": "jeevraksha-frontend",
+  "name": "vetbridge",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "JeevRaksha - Livestock Health Intelligence (SIH-26128)",
+  "description": "VETBRIDGE - Livestock Health Intelligence (SIH-26128)",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -26,5 +26,8 @@
     "tailwindcss": "^4.3.3",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
   }
 }
